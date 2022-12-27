@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project2UAS</string>
+    <string name="textJudul">Member List</string>
+    <string name="imageDeskripsi">Gambar</string>
+    <string name="textNama">Member Name</string>
+    <string name="textNPM">Member NPM</string>
+
+    <string name="textJudul2">Alphabets</string>
+    <string name="txtAlphabet">Alphabet</string>
+    <string name="imageDeskripsi2">Gambar2</string>
+    <string name="btnsuara">Suara</string>
+
+    <string name="textJudul3">Fruits</string>
+    <string name="txtFruit">Fruit Name</string>
+    <string name="imageDeskripsi3">Gambar3</string>
+    <string name="btnsuara2">Voice</string>
+</resources>
