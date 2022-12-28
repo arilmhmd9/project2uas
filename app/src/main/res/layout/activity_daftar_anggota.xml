@@ -4,26 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="10dp"
     android:background="@color/teal_200"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnPindah"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="Kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/listView"
+        android:layout_marginBottom="1dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/B"
         android:onClick="PindahkeHome"
-        android:layout_below="@+id/listView"
-        />
+        android:text="X" />
 
     <TextView
         android:id="@+id/judul"
         android:fontFamily="@font/poppins"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="@string/textJudul"
         android:textSize="18sp"

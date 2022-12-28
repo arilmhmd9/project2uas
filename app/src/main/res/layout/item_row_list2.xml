@@ -34,7 +34,9 @@
             android:id="@+id/btn_suara2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnsuara2"/>
+            android:text="@string/btnsuara2"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/B"/>
 
     </LinearLayout>
 </RelativeLayout>

@@ -8,7 +8,7 @@ import android.os.Handler;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
-    int durasiSplashScreenActivity=2500;
+    int durasiSplashScreenActivity=5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

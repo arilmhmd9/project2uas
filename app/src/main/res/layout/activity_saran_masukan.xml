@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+        <Button
+            android:id="@+id/kembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="kembali"
+            android:textColor="@color/black"
+            android:text="X"
+            android:backgroundTint="@color/B"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Nama " />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text=":"/>
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Masukan "
+            android:textSize="20dp"
+            android:fontFamily="@font/acme"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text=":"/>
+        <EditText
+            android:id="@+id/editText_masukan"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text">
+            <requestFocus/>
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/but_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="but_inClick"
+            android:text="Tambah"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/B"/>
+        <Button
+            android:id="@+id/but_Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="but_EditClick"
+            android:text="Edit"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/B"/>
+        <Button
+            android:id="@+id/but_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="but_DelClick"
+            android:text="Hapus"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/B"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

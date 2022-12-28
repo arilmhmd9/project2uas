@@ -17,7 +17,14 @@ public class DaftarAnggotaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar_anggota);
 
+        allData.add(new Anggota("Ana Sopia Mariana", "432007006190223",R.drawable.aana));
+        allData.add(new Anggota("Ayuni Dita Herliani","432007006190208",R.drawable.ayu));
+        allData.add(new Anggota("Elsa Alyanti", "432007006190082",R.drawable.elsa));
+        allData.add(new Anggota("Hilman Nurmuhammad Iskandar", "432007006190272",R.drawable.hilman1));
         allData.add(new Anggota("Muhamad Syahril Suhandi","432007006190125",R.drawable.aril1));
+        allData.add(new Anggota("Taopik Dimyati", "432007006190218",R.drawable.opik));
+        allData.add(new Anggota("Wiranti", "432007006190176",R.drawable.wira));
+
 
         ListView listView=(ListView) findViewById(R.id.listView);
         AnggotaAdapter adapter=new AnggotaAdapter(this,R.layout.item_row_list,allData);

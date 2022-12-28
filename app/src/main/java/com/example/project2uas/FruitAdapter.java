@@ -42,13 +42,13 @@ public class FruitAdapter extends ArrayAdapter <Fruit> {
             imgfruit.setImageResource(fruit.gambar);
 
             final Integer filesuara=fruit.suara;
+
             btnsuara.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (media!=null&&media.isPlaying()){
                         media.stop();
                         media.release();
-
                     }
                     media=MediaPlayer.create(getContext(),filesuara);
                     media.setLooping(false);
